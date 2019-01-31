@@ -1,0 +1,57 @@
+body [class*="slider_left"], body [class*="slider_rght"] {
+    margin: 0 !important;
+    height: auto !important;
+}
+
+body [class*="slider_left"] ul, body [class*="slider_rght"] ul {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    height: auto !important;
+    bottom: 0 !important;
+    top: 0 !important;
+    max-width: 90%;
+    margin: auto !important;
+    border: 1px solid red;
+    margin-top: 28px !important;
+}
+
+body [class*="slider_left"] ul li, body [class*="slider_rght"] ul li {
+    position: relative !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+    max-width: none;
+    font-size: 10px;
+    margin: 0 !important;
+    border: 0;
+    padding: 0;
+    float: none
+}
+
+body [class*="slider_left"] ul li, body [class*="slider_rght"] ul li {
+    display: flex;
+    justify-content: space-between;
+    /*! flex: 1 !important; */
+    width: auto !important;
+    font-size: 10px !important;
+    top: 0px !important;
+}
+
+body [class*="slider_left"] ul.labels_yellow li {
+    flex: 1 !important;
+}
+
+body [class*="slider_left"] ul li a, body [class*="slider_rght"] ul li a {
+    padding: 0 !important;
+    font-size: 10px !important;
+}
+
+body [class*="slider_left"] ul [class*="hash"], body [class*="slider_rght"] [class*="hash"] {
+    border: 0;
+    width: auto !important;
+    border: 1px solid red !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 12px !important;
+}
